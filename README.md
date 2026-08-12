@@ -6,7 +6,7 @@
 A MATLAB-based simulation platform for autonomous navigation of unmanned ground vehicles (UGVs) over terrain represented by Digital Elevation Models (DEMs).
 
 ## Overview
-This repository contains the software developed as part of a Master's Thesis “Integration of geospatial data in MATLAB for the realistic simulationof autonomous robotic vehicles in unstructured environments” at the University of Málaga (UMA). 
+This repository contains the software developed as part of a Master's Thesis “Integration of geospatial data in MATLAB for the realistic simulation of autonomous robotic vehicles in unstructured environments” at the University of Málaga (UMA). 
 
 The project provides a simulation environment for studying autonomous navigation over 2.5D unstructured terrain, combining real Digital Elevation Models (DEMs), terrain traversability assessment, global path planning, local path planning, virtual LiDAR-based obstacle avoidance, and continuous 3D vehicle pose adaptation.
 
@@ -290,7 +290,7 @@ Repository:
 
 [https://github.com/C-Trillos/TFM_CATG_SIM_MATLAB](https://github.com/C-Trillos/TFM_CATG_SIM_MATLAB)
 
-A `CITATION.cff` file can also be included in the repository to provide structured citation information and enable GitHub's **"Cite this repository"** functionality.
+A `CITATION.cff` file is included in the repository to provide structured citation information and enable GitHub's “Cite this repository” functionality.
 
 ---
 
