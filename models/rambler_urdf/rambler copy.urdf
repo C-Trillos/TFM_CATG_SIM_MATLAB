@@ -1,0 +1,1139 @@
+<?xml version="1.0"?>
+<robot name="RAMBLER">
+    <link name="base" />
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base" />
+        <child link="robot_base" />
+    </joint>
+
+    <link name="robot_base">
+        <inertial>
+            <origin xyz="-15.504313 -8.557643 3.314363" rpy="3.141593 3.141593 3.141593" />
+            <inertia ixz="0.012955593294464" iyz="-0.62177264336981" izz="55.457934895277" ixy="0.0033341139937936" ixx="47.602401586312" iyy="25.482708212512" />
+            <mass value="166.16000366211" />
+        </inertial>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_1.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_2.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_3.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_4.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_5.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_6.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_7.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_8.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_9.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_10.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_11.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_12.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_13.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_14.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_15.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_16.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_17.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_18.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_19.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_20.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_21.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_22.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_23.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_24.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_25.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_26.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_27.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_28.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_29.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_30.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_31.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_32.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_33.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_34.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_35.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_36.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_37.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_38.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_39.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_40.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_41.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_42.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_43.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_44.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_45.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_46.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_47.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_48.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_49.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_50.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_51.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_52.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_53.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_54.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_55.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_56.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_57.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_58.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_59.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_60.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_61.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_62.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_63.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_64.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_65.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_66.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_67.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_68.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_69.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_70.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_71.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_72.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_73.dae" />
+            </geometry>
+        </collision>
+        <collision name="RAMBLER">
+            <origin xyz="-15.525008 -8.549983 3.435292" rpy="3.141593 3.141593 3.141593" />
+            <geometry>
+                <mesh filename="rambler_robot_base_coll_74.dae" />
+            </geometry>
+        </collision>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_1.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_2.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.780000 0.750000 0.730000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_3.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_4.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_5.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_6.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_7.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_8.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_9.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_10.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_11.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_12.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.750000 0.750000 0.750000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_13.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_14.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_15.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_16.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_17.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_18.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_19.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.000000 0.500000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_20.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_21.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_22.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_23.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_24.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_25.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_26.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_27.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_28.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_29.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_30.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_31.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_32.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_33.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_34.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_35.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="0.850000 0.850000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Chasis">
+            <origin xyz="-15.524034 -8.549997 3.433629" rpy="3.141592 3.141593 3.141592" />
+            <geometry>
+                <mesh filename="rambler_Chasis_vis_36.dae" />
+            </geometry>
+            <material name="Chasis_material">
+                <color rgba="1.000000 0.950000 0.900000 1.0" />
+            </material>
+        </visual>
+        <visual name="VelodyneVPL16">
+            <origin xyz="-0.000000 0.000000 -0.000000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="rambler_VelodyneVPL16_vis_1.dae" />
+            </geometry>
+            <material name="VelodyneVPL16_material">
+                <color rgba="0.780000 0.780000 0.780000 1.0" />
+            </material>
+        </visual>
+        <visual name="VelodyneVPL16">
+            <origin xyz="-0.000000 0.000000 -0.000000" rpy="-3.141593 3.141593 -3.141593" />
+            <geometry>
+                <mesh filename="rambler_VelodyneVPL16_vis_2.dae" />
+            </geometry>
+            <material name="VelodyneVPL16_material">
+                <color rgba="0.000000 0.000000 0.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Amortiguacion1" type="revolute">
+        <axis xyz="0 0 1" />
+        <limit lower="0.0" effort="1000000.0" upper="0.87266463041306" velocity="6.2831854820251" />
+        <parent link="robot_base" />
+        <child link="Brazo1dyn" />
+        <origin xyz="-15.335711 -8.619453 2.981170" rpy="0.000000 1.570796 0.000000" />
+    </joint>
+    <link name="Brazo1dyn">
+        <inertial>
+            <origin xyz="0.004319 -0.178771 0.054473" rpy="-1.570788 3.141589 0.084690" />
+            <inertia ixz="0.020882191755598" iyz="0.21381995122573" izz="0.36893899539488" ixy="-0.014930227815599" ixx="0.9201191025001" iyy="0.59089666170005" />
+            <mass value="39.799999237061" />
+        </inertial>
+        <collision name="Brazo1_dyn">
+            <origin xyz="-0.006160 -0.222969 0.000002" rpy="-1.570788 3.141589 0.084690" />
+            <geometry>
+                <mesh filename="rambler_Brazo1dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Brazo1">
+            <origin xyz="-0.147044 -0.250087 0.005001" rpy="0.174533 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo1_vis_1.dae" />
+            </geometry>
+            <material name="Brazo1_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo1">
+            <origin xyz="-0.147044 -0.250087 0.005001" rpy="0.174533 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo1_vis_2.dae" />
+            </geometry>
+            <material name="Brazo1_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo1">
+            <origin xyz="-0.147044 -0.250087 0.005001" rpy="0.174533 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo1_vis_3.dae" />
+            </geometry>
+            <material name="Brazo1_material">
+                <color rgba="1.000000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Eje1" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="Brazo1dyn" />
+        <child link="Rueda1dyn" />
+        <origin xyz="0.037500 -0.441698 0.157330" rpy="-0.000000 3.141593 0.174533" />
+    </joint>
+    <link name="Rueda1dyn">
+        <inertial>
+            <origin xyz="0.000001 0.000021 -0.182711" rpy="-3.007362 1.570806 -2.622791" />
+            <inertia ixz="-1.055990851327e-06" iyz="1.375026118678e-07" izz="0.13456564237092" ixy="-5.0797862742227e-08" ixx="0.22915073256832" iyy="0.13456559033842" />
+            <mass value="6.8299999237061" />
+        </inertial>
+        <collision name="Rueda1_dyn">
+            <origin xyz="0.000002 0.000021 -0.182676" rpy="-3.007362 1.570806 -2.622791" />
+            <geometry>
+                <mesh filename="rambler_Rueda1dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Rueda1">
+            <origin xyz="0.000000 0.000022 -0.106355" rpy="-2.572074 1.570803 -2.921095" />
+            <geometry>
+                <mesh filename="rambler_Rueda1_vis_1.dae" />
+            </geometry>
+            <material name="Rueda1_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Rueda1">
+            <origin xyz="0.000000 0.000022 -0.106355" rpy="-2.572074 1.570803 -2.921095" />
+            <geometry>
+                <mesh filename="rambler_Rueda1_vis_2.dae" />
+            </geometry>
+            <material name="Rueda1_material">
+                <color rgba="0.500000 0.500000 0.500000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Amortiguacion2" type="revolute">
+        <axis xyz="0 0 1" />
+        <limit lower="0.0" effort="1000000.0" upper="0.87266463041306" velocity="6.2831854820251" />
+        <parent link="robot_base" />
+        <child link="Brazo2dyn" />
+        <origin xyz="-15.335711 -8.550203 2.981170" rpy="-0.000000 -1.570796 0.000000" />
+    </joint>
+    <link name="Brazo2dyn">
+        <inertial>
+            <origin xyz="-0.004314 0.178734 -0.054469" rpy="-1.570800 3.141593 -3.056901" />
+            <inertia ixz="0.020881789351341" iyz="-0.21382038215439" izz="0.36892637145608" ixy="0.01492271375504" ixx="0.92012458965554" iyy="0.59090806114676" />
+            <mass value="39.799999237061" />
+        </inertial>
+        <collision name="Brazo2_dyn">
+            <origin xyz="0.006168 0.222934 -0.000003" rpy="-1.570800 3.141593 -3.056901" />
+            <geometry>
+                <mesh filename="rambler_Brazo2dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Brazo2">
+            <origin xyz="0.147050 0.250054 -0.005001" rpy="-0.174533 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo2_vis_1.dae" />
+            </geometry>
+            <material name="Brazo2_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo2">
+            <origin xyz="0.147050 0.250054 -0.005001" rpy="-0.174533 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo2_vis_2.dae" />
+            </geometry>
+            <material name="Brazo2_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo2">
+            <origin xyz="0.147050 0.250054 -0.005001" rpy="-0.174533 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo2_vis_3.dae" />
+            </geometry>
+            <material name="Brazo2_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Eje2" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="Brazo2dyn" />
+        <child link="Rueda2dyn" />
+        <origin xyz="-0.037490 0.441639 -0.157330" rpy="-3.141593 3.141592 -2.967060" />
+    </joint>
+    <link name="Rueda2dyn">
+        <inertial>
+            <origin xyz="0.000001 0.000001 -0.182710" rpy="0.129982 4.712385 2.687569" />
+            <inertia ixz="-4.0610823379299e-07" iyz="-3.7914244775427e-08" izz="0.13456566567898" ixy="-1.1949176232367e-07" ixx="0.22915088524064" iyy="0.13456578329216" />
+            <mass value="6.8299999237061" />
+        </inertial>
+        <collision name="Rueda2_dyn">
+            <origin xyz="0.000001 0.000001 -0.182675" rpy="0.129982 4.712385 2.687569" />
+            <geometry>
+                <mesh filename="rambler_Rueda2dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Rueda2">
+            <origin xyz="0.000001 0.000002 -0.106355" rpy="-0.744918 4.712381 -2.079950" />
+            <geometry>
+                <mesh filename="rambler_Rueda2_vis_1.dae" />
+            </geometry>
+            <material name="Rueda2_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Rueda2">
+            <origin xyz="0.000001 0.000002 -0.106355" rpy="-0.744918 4.712381 -2.079950" />
+            <geometry>
+                <mesh filename="rambler_Rueda2_vis_2.dae" />
+            </geometry>
+            <material name="Rueda2_material">
+                <color rgba="0.500000 0.500000 0.500000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Amortiguacion3" type="revolute">
+        <axis xyz="0 0 1" />
+        <limit lower="0.0" effort="1000000.0" upper="0.87266463041306" velocity="6.2831854820251" />
+        <parent link="robot_base" />
+        <child link="Brazo3dyn" />
+        <origin xyz="-15.712361 -8.550203 2.981170" rpy="-0.000000 -1.570796 0.000000" />
+    </joint>
+    <link name="Brazo3dyn">
+        <inertial>
+            <origin xyz="-0.004312 0.178737 0.054470" rpy="-1.570785 3.141587 -3.056906" />
+            <inertia ixz="0.020879258069313" iyz="0.2138154575759" izz="0.36893366127132" ixy="-0.014928797013988" ixx="0.92011540312146" iyy="0.59089639147618" />
+            <mass value="39.799999237061" />
+        </inertial>
+        <collision name="Brazo3_dyn">
+            <origin xyz="0.006166 0.222935 0.000001" rpy="-1.570785 3.141587 -3.056906" />
+            <geometry>
+                <mesh filename="rambler_Brazo3dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Brazo3">
+            <origin xyz="0.147050 0.250054 0.004999" rpy="-0.174533 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo3_vis_1.dae" />
+            </geometry>
+            <material name="Brazo3_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo3">
+            <origin xyz="0.147050 0.250054 0.004999" rpy="-0.174533 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo3_vis_2.dae" />
+            </geometry>
+            <material name="Brazo3_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo3">
+            <origin xyz="0.147050 0.250054 0.004999" rpy="-0.174533 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo3_vis_3.dae" />
+            </geometry>
+            <material name="Brazo3_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Eje3" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="Brazo3dyn" />
+        <child link="Rueda3dyn" />
+        <origin xyz="-0.037489 0.441639 0.157320" rpy="-3.141593 3.141592 -2.967060" />
+    </joint>
+    <link name="Rueda3dyn">
+        <inertial>
+            <origin xyz="0.000001 0.000001 0.182717" rpy="2.786399 1.570800 -1.828179" />
+            <inertia ixz="-3.9783000885219e-07" iyz="-2.0444241516021e-08" izz="0.13456574885009" ixy="1.4467886988395e-07" ixx="0.22915139411529" iyy="0.13456570012105" />
+            <mass value="6.8299999237061" />
+        </inertial>
+        <collision name="Rueda3_dyn">
+            <origin xyz="0.000001 0.000001 0.182681" rpy="2.786399 1.570800 -1.828179" />
+            <geometry>
+                <mesh filename="rambler_Rueda3dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Rueda3">
+            <origin xyz="0.000000 0.000002 0.106362" rpy="-0.531157 4.712385 3.036765" />
+            <geometry>
+                <mesh filename="rambler_Rueda3_vis_1.dae" />
+            </geometry>
+            <material name="Rueda3_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Rueda3">
+            <origin xyz="0.000000 0.000002 0.106362" rpy="-0.531157 4.712385 3.036765" />
+            <geometry>
+                <mesh filename="rambler_Rueda3_vis_2.dae" />
+            </geometry>
+            <material name="Rueda3_material">
+                <color rgba="0.500000 0.500000 0.500000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Amortiguacion4" type="revolute">
+        <axis xyz="0 0 1" />
+        <limit lower="0.0" effort="1000000.0" upper="0.87266463041306" velocity="6.2831854820251" />
+        <parent link="robot_base" />
+        <child link="Brazo4dyn" />
+        <origin xyz="-15.712361 -8.619453 2.981170" rpy="0.000000 1.570796 0.000000" />
+    </joint>
+    <link name="Brazo4dyn">
+        <inertial>
+            <origin xyz="0.004321 -0.178771 -0.054466" rpy="-1.570795 3.141591 0.084688" />
+            <inertia ixz="0.020879915982468" iyz="-0.21382007300781" izz="0.36892851854184" ixy="0.01492271938868" ixx="0.92012320624378" iyy="0.59090512907445" />
+            <mass value="39.799999237061" />
+        </inertial>
+        <collision name="Brazo4_dyn">
+            <origin xyz="-0.006161 -0.222971 0.000001" rpy="-1.570795 3.141591 0.084688" />
+            <geometry>
+                <mesh filename="rambler_Brazo4dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Brazo4">
+            <origin xyz="-0.147044 -0.250088 -0.004999" rpy="0.174533 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo4_vis_1.dae" />
+            </geometry>
+            <material name="Brazo4_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo4">
+            <origin xyz="-0.147044 -0.250088 -0.004999" rpy="0.174533 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo4_vis_2.dae" />
+            </geometry>
+            <material name="Brazo4_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+        <visual name="Brazo4">
+            <origin xyz="-0.147044 -0.250088 -0.004999" rpy="0.174533 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Brazo4_vis_3.dae" />
+            </geometry>
+            <material name="Brazo4_material">
+                <color rgba="0.860000 0.900000 1.000000 1.0" />
+            </material>
+        </visual>
+    </link>
+    <joint name="Eje4" type="continuous">
+        <axis xyz="0 0 1" />
+        <parent link="Brazo4dyn" />
+        <child link="Rueda4dyn" />
+        <origin xyz="0.037500 -0.441699 -0.157320" rpy="0.000000 3.141593 0.174533" />
+    </joint>
+    <link name="Rueda4dyn">
+        <inertial>
+            <origin xyz="0.000000 0.000024 0.182717" rpy="-0.000000 1.570796 0.000000" />
+            <inertia ixz="-1.2754900425163e-09" iyz="4.4069833035119e-08" izz="0.13456550185196" ixy="1.1996050713023e-09" ixx="0.22915073258014" iyy="0.13456555273944" />
+            <mass value="6.8299999237061" />
+        </inertial>
+        <collision name="Rueda4_dyn">
+            <origin xyz="0.000001 0.000023 0.182681" rpy="-0.000000 1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Rueda4dyn_coll_1.dae" />
+            </geometry>
+        </collision>
+        <visual name="Rueda4">
+            <origin xyz="0.000000 0.000024 0.106362" rpy="-3.012129 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Rueda4_vis_1.dae" />
+            </geometry>
+            <material name="Rueda4_material">
+                <color rgba="0.250000 0.250000 0.250000 1.0" />
+            </material>
+        </visual>
+        <visual name="Rueda4">
+            <origin xyz="0.000000 0.000024 0.106362" rpy="-3.012129 -1.570796 0.000000" />
+            <geometry>
+                <mesh filename="rambler_Rueda4_vis_2.dae" />
+            </geometry>
+            <material name="Rueda4_material">
+                <color rgba="0.500000 0.500000 0.500000 1.0" />
+            </material>
+        </visual>
+    </link>
+</robot>
